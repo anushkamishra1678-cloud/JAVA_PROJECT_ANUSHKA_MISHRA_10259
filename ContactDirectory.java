@@ -32,7 +32,7 @@ class Directory {
         contacts = new Contact[size];
         count = 0;
     }
-
+    // Core functions to handle contact operations like adding,searching,deleting,and displaying contacts. 
     // Add Contact
     public void addContact(String name, String phone) {
         if (count < contacts.length) {
